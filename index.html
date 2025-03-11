@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Lady of Luminosity</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Starting Scene -->
+        <section id="start" class="scene">
+            <h1>A late night strove</h1>
+            <p>The moon is beautiful tonight. It's perfect for a walk.</p>
+            <p>Would you like to go out?</p>
+            <a href="#Go Out" class="choice">Yes, let's go out</a>
+            <a href="#Stay Home" class="choice">No, let's stay home.</a>
+        </section>
+
+        <!-- Go Out Path -->
+        <section id="Go Out" class="scene">
+            <h1>Being Surrounded</h1>
+            <p>You encounter a pack of wolves on your way home. They quickly surround you.</p>
+            <p>You are in danger! What will you do?</p>
+            <a href="#Attack" class="choice">Try to fight against them</a>
+            <a href="#Run" class="choice">Run!</a>
+        </section>
+
+        <section id="Run" class="scene">
+            <h1>Run!!</h1>
+            <p>You try to run away, but they still catch up to you. Unlucky, you suddenly fall off a cliff.</p>
+            <p><strong>You could never go back home...</strong></p>
+            <a href="#start" class="choice">Restart the Story</a>
+        </section>
+
+        <section id="Attack" class="scene">
+            <h1>The light power!</h1>
+            <p>You decide to stay and fight for your life.</p>
+            <p>In a moment of fear and desperation, you unleash a powerful blast of light, burning all of them. The light magic saved your life.</p>
+            <p>You discover your magic power, what should you do?</p>
+            <a href="#Tell your Kingdom" class="choice">Tell your Kingdom about your power.</a>
+            <a href="#Keep the Secret" class="choice">Keep it a secret.</a>
+        </section>
+        <section id="Tell your Kingdom" class="scene">
+            <h1>Why would you do that to me..?</h1>
+            <p>After safety comeback home, you let everyone in the Kingdom know about your power.</p>
+            <p>Everyone is fear of you. Magic is forbidden in your Kingdom. They arrest you!</p>
+            <p><strong>You are being put in jail, and never see the light again...</strong></p>
+            <a href="#start" class="choice">Restart the Story</a>
+        </section>
+        <section id="Keep the Secret" class="scene">
+            <h1>A New friend</h1>
+            <p>As your power grows everyday, it's difficult for you to hide it from everyone. </p>
+            <p>You heard from guards that there is a revolutionary mage that being imprisoned in your Kingdom. He can teach you the way to control your power.</p>
+            <p>Should you trust him?</p>
+            <a href="#Trust" class="choice">Yes. It doesn't hurt to try...</a>
+            <a href="#Cannot Trust" class="choice">No! How could I trust a criminal?</a>
+        </section>
+    </div>
+</body>
+</html>
